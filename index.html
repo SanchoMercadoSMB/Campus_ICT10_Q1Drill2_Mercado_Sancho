@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Drill 2</title>
+</head>
+
+<body>
+    <div class="container" style="font-family:'Courier New', Courier, monospace; font-size: larger;">
+        <form>
+            <input type="number" id="num1" placeholder="Enter the first number."><br><br>
+            <input type="number" id="num2" placeholder="Enter the second number."><br><br>
+            <input type="button" py-click="adding_numbers" value="Compute">
+            <input type="button" py-click="subtracting_numbers" value="Subtraction">
+            <input type="button" py-click="multiplying_numbers" value="Multiplication">
+            <input type="button" py-click="exponent_numbers" value="Exponentiation"><br><br>
+            <input type="button" py-click="dividing_numbers" value="Division">
+            <input type="button" py-click="dividing_numbers_floor" value="Division Floor">
+            <input type="button" py-click="dividing_numbers_modulo" value="Modulo">
+        </form><br><br>
+        <div id="result" style="background-color: Teal; color: black; font-family: sans-serif; font-size: large;" ></div>
+    </div>
+    <script type="py" src="main.py"></script>
+</body>
+
+</html>
